@@ -1,0 +1,26 @@
+{
+  "name": "presentation-template",
+  "version": "1.0.0",
+  "description": "Presentation template for Tom Hastjarjanto",
+  "main": "index.js",
+  "scripts": {
+    "start": "marp --html -s  ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intellicode/presentation-template.git"
+  },
+  "keywords": [
+    "markdown",
+    "marpit"
+  ],
+  "author": "Tom Hastjarjanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Intellicode/presentation-template/issues"
+  },
+  "homepage": "https://github.com/Intellicode/presentation-template#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.2.1"
+  }
+}
