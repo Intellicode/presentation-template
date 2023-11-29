@@ -107,16 +107,42 @@ style: |
   .no-bullets ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
+  }
+
+  .author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .author img {
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    border: 1px solid var(--bg-one);
+  }
+
+  .author * {
+    color: var(--background);
+  }
+
+  .author small {
+    display: block;
+    font-size: 0.6em;
+    opacity: 0.8;
   }
 ---
 
 <div class="variant-title">
 
-# 🏋️ Title of the presentation
+# Title of the presentation
 
-By Tom Hastjarjanto
-
+<div class="author">
+    <img src="https://avatars.githubusercontent.com/u/6794?v=4">
+    <span>Tom Hastjarjanto <small>Software Engineer</small></span>
 </div>
 
 ---
